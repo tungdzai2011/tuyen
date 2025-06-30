@@ -134,7 +134,7 @@ for X in banner:
 
 init(autoreset=True)
 console = Console()
-check_for_update("v1.1")
+check_for_update("v1.2")
 
 
 os.system('cls' if os.name == 'nt' else 'clear')
@@ -150,7 +150,7 @@ print(
     f"                  \033[1;39m[\033[96m1\033[1;39m]\033[92m Tool Buff View      \033[1;39m[\033[96m2\033[1;39m]\033[92m Tool Spam Sms\n"
     f"                  \033[1;39m[\033[96m3\033[1;39m]\033[92m Tool Get Proxy      \033[1;39m[\033[96m4\033[1;39m]\033[92m Tool Scan Proxy\n"
     f"                  \033[1;39m[\033[96m5\033[1;39m]\033[92m Tool Spam Ngl       \033[1;39m[\033[96m6\033[1;39m]\033[92m Tool Buff View V2\n"
-    f"                  \033[1;39m[\033[96m7\033[1;39m]\033[92m Tool Deface Website \033[1;39m[\033[96m8\033[1;39m]\033[92m Demo\n"
+    f"                  \033[1;39m[\033[96m7\033[1;39m]\033[92m Tool Scan Site      \033[1;39m[\033[96m8\033[1;39m]\033[92m Tool Deface Website\n"
 )
 
 chon = input("\033[1;39m[\033[1;36m•_•\033[1;39m] => \033[1;32m Nhập Số Tương Ứng Với Chức Năng : \033[1;32m")  
@@ -185,3 +185,5 @@ if chon == "6":
 	exec(requests.get('https://raw.githubusercontent.com/tungdzai2011/tuyen/refs/heads/main/viewv2.py').text)
 if chon == "7":
 	exec(requests.get('https://raw.githubusercontent.com/tungdzai2011/tuyen/refs/heads/main/site.py').text)
+if chon == "8":
+	exec(requests.get('https://raw.githubusercontent.com/tungdzai2011/tuyen/refs/heads/main/exp.py').text)
